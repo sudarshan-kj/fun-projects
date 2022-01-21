@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Test, { Button } from "./Test";
 
 export default function App() {
   const questions = [
@@ -56,6 +57,41 @@ export default function App() {
       setShowScore(true);
     }
   };
+
+  function Foo({ val, key }: any) {
+    const [cool, updateCool] = React.useState("hello");
+
+    return (
+      <button key={key} onClick={() => updateCool("Okk")}>
+        {val}: {cool}
+      </button>
+    );
+  }
+
+  const values = [
+    { val: 1, key: 1 },
+    { val: 2, key: 2 },
+    { val: 3, key: 3 },
+  ];
+
+  return (
+    <div>
+      {values.map(Foo)} {/* broken */}
+      {/* works */}
+    </div>
+  );
+
+  return (
+    <>
+      {Button({ value: score })}
+      {Button({ value: score })}
+      {Button({ value: score })}
+
+      <Test />
+      <button onClick={() => setScore((p) => p + 122)}>Score Increment</button>
+    </>
+  );
+
   return (
     <div className="app">
       {showScore ? (
