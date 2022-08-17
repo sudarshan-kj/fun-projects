@@ -1,0 +1,7 @@
+6
+73D:\Git Projects\fun-projects\typescript-basics\dist\index.242b51c6.js.map132974495286483134 0
+69D:\Git Projects\fun-projects\typescript-basics\dist\index.242b51c6.js132974495286473141 0
+51D:\Git Projects\fun-projects\typescript-basics\dist132974495286493125 1
+55D:\Git Projects\fun-projects\typescript-basics\index.ts132974493808138609 0
+57D:\Git Projects\fun-projects\typescript-basics\index.html132974493242293080 0
+62D:\Git Projects\fun-projects\typescript-basics\dist\index.html132974495286180526 0

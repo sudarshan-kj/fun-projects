@@ -1,0 +1,1 @@
+{"mappings":"AAAA,OAAO,CAAC,GAAG,CAAC,uBAAuB,CAAC,CAAC","sources":["typescript-basics/index.ts"],"sourcesContent":["console.log(\"Hello from typescript\");\r\n"],"names":[],"version":3,"file":"index.1a6444cd.js.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,0 +1,14 @@
+.input {
+  width: 100%;
+  max-width: 300px;
+  height: 70px;
+  padding: 0.5rem;
+  font-size: smaller;
+  border: 1px solid #0000003b;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.input a {
+  cursor: pointer;
+}
